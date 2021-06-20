@@ -7,4 +7,4 @@ EXPOSE 443
 COPY ./conf/ /var/www/
 #RUN chmod +x /var/www/nginx.sh
 #ENTRYPOINT ["/var/www/nginx.sh"]
-CMD ["nginx", "-g", "deamon off;"]
+CMD ["nginx", "-g", "daemon off;"]
