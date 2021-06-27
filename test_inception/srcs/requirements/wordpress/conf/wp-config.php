@@ -2,8 +2,8 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('WP_CACHE_KEY_SALT', 'kgeorgia.42.fr');
-define('WP_CACHE', true);
+// define('WP_CACHE_KEY_SALT', 'kgeorgia.42.fr');
+// define('WP_CACHE', true);
 define( 'DB_NAME', 'main_database' );
 define( 'DB_USER', 'kgeorgia' );
 define( 'DB_PASSWORD', '4321' );

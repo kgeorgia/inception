@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
     mysql:
-        image: mariadb
+        # image: mariadb
         env_file: .env
         volumes:
             - db:/var/lib/mysql
@@ -12,7 +12,7 @@ services:
             - main_network
         container_name: mariadb
     nginx:
-        image: nginx
+        # image: nginx
         env_file: .env
         volumes:
             - wp:/var/www/html
@@ -26,7 +26,7 @@ services:
             - main_network
         container_name: nginx
     wp:
-        image: wordpress
+        # image: wordpress
         env_file: .env
         volumes:
             - wp:/var/www/html
