@@ -45,16 +45,16 @@ volumes:
         driver_opts: 
             type: none
             o: bind
-            device: /Users/kgeorgia/data/wp
-            # device: /home/kgeorgia/data/wp
+            # device: /Users/kgeorgia/data/wp
+            device: /home/kgeorgia/data/wp
     db:
         driver: local
         name: db
         driver_opts: 
             type: none
             o: bind
-            device: /Users/kgeorgia/data/db
-            # device: /home/kgeorgia/data/db
+            # device: /Users/kgeorgia/data/db
+            device: /home/kgeorgia/data/db
         
 networks:
     main_network:
